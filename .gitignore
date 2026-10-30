@@ -1,0 +1,91 @@
+# Results and local machine state
+/results/
+/backups/
+/hosts.new
+*.log
+*.tar
+*.tar.gz
+.env
+.env.*
+!.env.example
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.DS_Store
+*.swp
+*~
+# Generated CUDA binaries and build directories
+**/build/
+/cuda_memtest/cuda_memtest
+**/gpu_burn
+*.o
+*.fatbin
+*.ptx
+.run.lock
+
+# macOS
+.AppleDouble/
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+.TemporaryItems/
+.VolumeIcon.icns
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+*.stackdump
+
+# Linux / Unix
+.Trash-*/
+.nfs*
+.fuse_hidden*
+*.swo
+*.swn
+
+# IDEs and local editor state
+.idea/
+.vscode/
+.fleet/
+.vs/
+.history/
+.settings/
+.project
+.classpath
+*.iml
+*.ipr
+*.iws
+*.code-workspace
+*.sublime-workspace
+
+# Agent tools, orchestrators, caches and local configuration
+.claude/
+.codex/
+.cursor/
+.gemini/
+.opencode/
+.continue/
+.cline/
+.roo/
+.kilocode/
+.windsurf/
+.serena/
+.agent/
+.agents/
+.orchestrator/
+.orchestrators/
+.swarm/
+.worktrees/
+.aider*
+.mcp.json
+.mcp.local.json
+AGENTS.local.md
+CLAUDE.local.md
+GEMINI.local.md

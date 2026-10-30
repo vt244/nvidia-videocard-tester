@@ -1,0 +1,11 @@
+.git
+**/.git
+results
+backups
+hosts.new
+*.log
+*.tar
+*.tar.gz
+.env*
+__pycache__
+tests
